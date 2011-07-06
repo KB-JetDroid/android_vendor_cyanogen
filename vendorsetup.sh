@@ -45,5 +45,6 @@ add_lunch_combo cyanogen_vivow-eng
 add_lunch_combo cyanogen_z71-eng
 add_lunch_combo cyanogen_zeppelin-eng
 add_lunch_combo cyanogen_zero-eng
+add_lunch_combo cyanogen_spica-eng
 
 PATH=$PATH:$PWD/vendor/cyanogen/tools ; export PATH
