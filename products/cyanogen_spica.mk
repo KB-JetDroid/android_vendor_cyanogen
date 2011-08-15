@@ -20,9 +20,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=soju BUILD_ID=GRJ22 BUILD_DISPLAY_I
 # Extra spica overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/spica
 
-# Add the FM app
-PRODUCT_PACKAGES += FM
-
 #
 # Set ro.modversion
 #
