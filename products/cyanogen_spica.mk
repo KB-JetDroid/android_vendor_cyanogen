@@ -20,9 +20,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=spica BUILD_ID=GRJ90 BUILD_DISPLAY_
 # Extra spica overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/spica
 
-# Add the Torch app
-PRODUCT_PACKAGES += Torch
-
 #
 # Set ro.modversion
 #
