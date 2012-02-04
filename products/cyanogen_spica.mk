@@ -15,16 +15,15 @@ PRODUCT_BRAND := samsung
 PRODUCT_DEVICE := spica
 PRODUCT_MODEL := GT-I5700
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=spica BUILD_ID=GRJ90 BUILD_DISPLAY_ID=GWK74 BUILD_FINGERPRINT=samsung/spica/spica:2.3.7/GRJ90/138666:user/release-keys PRIVATE_BUILD_DESC="spica-user 2.3.7 GRJ90 138666 release-keys" BUILD_NUMBER=138666
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=soju BUILD_ID=GWK74 BUILD_FINGERPRINT=google/soju/spica:2.3.7/GWK74/185293:user/release-keys PRIVATE_BUILD_DESC="soju-user 2.3.7 GWK74 185293 release-keys" BUILD_NUMBER=185293
 
 # Extra spica overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/spica
 
-#
-# Set ro.modversion
-#
-PRODUCT_PROPERTY_OVERRIDES += \
-	ro.modversion=CyanogenMod-7.2-NIGHTLY-Spica-alpha-7.2
+# Release name and versioning
+PRODUCT_VERSION_DEVICE_SPECIFIC := -alpha8
+PRODUCT_RELEASE_NAME := Spica
+-include vendor/cyanogen/products/common_versions.mk
 
 #
 # Copy spica specific prebuilt files
