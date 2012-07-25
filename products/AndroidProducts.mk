@@ -61,6 +61,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cyanogen_smultron.mk \
     $(LOCAL_DIR)/cyanogen_speedy.mk \
     $(LOCAL_DIR)/cyanogen_spica.mk \
+    $(LOCAL_DIR)/cyanogen_sunfire.mk \
     $(LOCAL_DIR)/cyanogen_supersonic.mk \
     $(LOCAL_DIR)/cyanogen_tass.mk \
     $(LOCAL_DIR)/cyanogen_tiny6410.mk \
