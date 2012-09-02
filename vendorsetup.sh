@@ -86,4 +86,5 @@ add_lunch_combo cyanogen_zeus-eng
 add_lunch_combo cyanogen_zeusc-eng
 add_lunch_combo cyanogen_spica-eng
 add_lunch_combo cyanogen_tiny6410-eng
+add_lunch_combo cyanogen_jet-eng
 
